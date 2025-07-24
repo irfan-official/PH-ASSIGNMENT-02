@@ -157,6 +157,21 @@
   form button {
     padding: 16px 20px;
   }
+
+  footer {
+    margin-top: 50px;
+  }
+
+  footer .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  footer .container .part-1 {
+    width: 100%;
+  }
+  footer .container .part-1 p {
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 641px) {
@@ -197,7 +212,7 @@
   }
 }
 
-@media (min-width: 640px) and (max-width: 1340px) {
+@media (min-width: 641px) and (max-width: 1340px) {
   .hero-banner .left .text {
     font-size: 3.5vw;
   }
@@ -257,6 +272,16 @@
 
   .__engagement__ .join-bunch {
     font-size: 4vw;
+  }
+  footer .container .part-1 p {
+    font-size: max(1.8vw, 1rem);
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1050px) {
+  footer .container .part-4 {
+    gap: 10px;
+    width: 300px;
   }
 }
 
