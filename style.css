@@ -1,2 +1,41 @@
 @import "tailwindcss";
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* font-family: "Inter", sans-serif; */
+
+/* font-family: "Noto Serif", serif; */
+
+.label-1 {
+  font-family: "Noto Serif", serif;
+}
+
+.text {
+  font-family: "Noto Serif", serif;
+}
+.text-descript {
+  font-family: "Inter", sans-serif;
+}
+
+.label-1-description {
+  font-family: "Inter", sans-serif;
+}
+
+.list {
+  font-family: "Inter", sans-serif;
+}
+
+.card-text,
+.card-button {
+  font-family: "Inter", sans-serif;
+}
+
+.noto {
+  font-family: "Noto Serif", serif;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+}

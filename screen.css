@@ -9,6 +9,9 @@
 
 /* sm device */
 @media (max-width: 640px) {
+  nav {
+    margin-top: 10px;
+  }
   .list {
     display: none;
   }
@@ -79,6 +82,32 @@
     padding: 12px 10px;
     font-size: 14px;
   }
+
+  .__plants-lover__ {
+    width: 86vw;
+    flex-direction: column;
+    margin-top: 42px;
+    gap: 18px;
+  }
+  .batch {
+    display: none;
+  }
+  .store-left {
+    width: 100%;
+  }
+  .store-right {
+    width: 100%;
+  }
+  .store-right-label {
+    width: 100%;
+    font-size: 24px;
+  }
+  .store-right p {
+    font-size: 14px;
+  }
+  .store-right ul {
+    padding-left: 20px;
+  }
 }
 
 @media (min-width: 641px) {
@@ -112,6 +141,26 @@
   }
   .our-plants p {
     font-size: 1.5vw;
+  }
+
+  .store-left .batch {
+    width: 20vw;
+  }
+  .store-left {
+    width: 45%;
+  }
+  .store-right {
+    width: 48%;
+  }
+  .store-right-label {
+    font-size: 3vw;
+  }
+  .store-right p {
+    font-size: 1.5vw;
+  }
+  .store-right ul {
+    gap: 10px;
+    margin-top: 15px;
   }
 }
 
