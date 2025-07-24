@@ -40,6 +40,45 @@
     width: 100%;
     margin-top: 28px;
   }
+
+  main {
+    margin-top: 65px;
+  }
+
+  .__card__ {
+    width: 155px;
+  }
+
+  .__card__ img {
+    height: 196.5px;
+  }
+
+  .__flower-cards__ {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 25px;
+    column-gap: 15px;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .our-plants {
+    width: 86vw;
+  }
+  .our-plants .label-1 {
+    font-size: 24px;
+  }
+  .our-plants .label-1-description {
+    font-size: 14px;
+    width: 90%;
+  }
+  .card-label .card-text {
+    font-size: 16px;
+  }
+  .__card__ .card-button {
+    padding: 12px 10px;
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 641px) {
@@ -54,6 +93,25 @@
   }
   .hero-banner p {
     font-size: 1.7vw;
+  }
+  .__card__ {
+    width: 20vw;
+  }
+  .__card__ img {
+    height: 25vw;
+  }
+  .__card__ .card-label .card-text {
+    font-size: 2vw;
+  }
+  .__card__ .card-button {
+    font-size: 1.5vw;
+    padding: auto auto;
+  }
+  .our-plants .label-1 {
+    font-size: 3.2vw;
+  }
+  .our-plants p {
+    font-size: 1.5vw;
   }
 }
 
