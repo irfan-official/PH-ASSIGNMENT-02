@@ -39,3 +39,47 @@
 .inter {
   font-family: "Inter", sans-serif;
 }
+
+/* text-black/50 */
+
+.__images__ {
+  display: grid;
+  grid-template-areas:
+    "img-1 img-3 img-3"
+    "img-2 img-3 img-3";
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 250px); /* or adjust to your needs */
+  row-gap: 25px;
+  column-gap: 28px;
+}
+
+.img-1 {
+  background-image: url("./assets/deal-bloom.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-area: img-1;
+}
+
+.img-2 {
+  background-image: url("./assets/deal-ana.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-area: img-2;
+}
+
+.img-3 {
+  background-image: url("./assets/deal-zabo.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-area: img-3;
+}
+
+.__engagement__ {
+  background: url("./assets/news-letter-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
