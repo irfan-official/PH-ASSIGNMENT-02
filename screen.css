@@ -242,6 +242,9 @@
   .store-left .batch {
     width: 20vw;
   }
+  .store-left .spin-logo {
+    width: 10vw;
+  }
   .store-left {
     width: 45%;
   }
