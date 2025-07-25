@@ -49,11 +49,11 @@
   }
 
   .__card__ {
-    width: 155px;
+    width: 100%;
   }
 
   .__card__ img {
-    height: 196.5px;
+    height: 45vw;
   }
 
   .__flower-cards__ {
